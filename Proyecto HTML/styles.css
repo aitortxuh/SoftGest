@@ -1,0 +1,182 @@
+/*        FORMULARIO    */
+
+header {
+    text-align: center; 
+}
+
+img {
+    display: block; 
+    margin: 0 auto; 
+    width: 200px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.buttons {
+    text-align: right;
+}
+
+input[type="reset"],
+.submit-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.submit-button {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/*    INDEX, paginas principales       */
+
+.header {
+    background-color: #333;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.header-logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.navbar {
+    background-color: #007BFF;
+}
+
+.navbar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar-item {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar-link {
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-content {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+}
+
+.main-section {
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.main-section-title {
+    font-size: 28px;
+    margin-top: 0;
+    color: #333;
+}
+
+.main-section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-text {
+    font-weight: bold;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.main-section-list .main-list-title {
+    font-weight: bold;
+    color: #007BFF;
+}
+
+.button-link {
+    text-decoration: none;
+    color: #e61919;
+    cursor: pointer;
+}

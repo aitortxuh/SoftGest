@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Cliente</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <fieldset>
+            <legend><strong>Formulario de Creación de Cliente</strong></legend>
+            <form action="procesar_formulario.php" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo_negocio">Tipo de Negocio:</label>
+                    <select id="tipo_negocio" name="tipo_negocio">
+                        <option value="comercio">Comercio</option>
+                        <option value="servicios">Servicios</option>
+                        <option value="manufactura">Manufactura</option>
+                        <option value="otros">Otros</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion">
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label>¿Ha utilizado la aplicación antes?</label>
+                    <input type="radio" id="si" name="uso_anterior" value="si">
+                    <label for="si">Sí</label>
+                    <input type="radio" id="no" name="uso_anterior" value="no">
+                    <label for="no">No</label>
+                </div>
+
+                <div class="form-group">
+                    <label for="notificaciones">Recibir Notificaciones:</label>
+                    <input type="checkbox" id="notificaciones" name="notificaciones" value="si">
+                </div>
+
+                <div class="buttons">
+                    <input type="reset" value="Limpiar">
+                    <a href="clientes.html" class="submit-button">Crear Cliente</a>
+                </div>
+            </form>
+        </fieldset>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; 2023 SoftGEST CRM</p>
+        </div>
+    </footer>
+</body>
+</html>
